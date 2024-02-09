@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "copernicus"
+version = "0.1.0"
+description = "Projects that aim at applying EVT, TS methods and Deep Learning to predict waves and tempests in the Atlantic Ocean"
+authors = ["Téo Roussel"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+poetry = "^1.7.1"
+pandas = "^2.1.4"
+numpy = "^1.26.3"
+xarray = "^2023.12.0"
+streamlit = "^1.30.0"
+cdsapi = "^0.6.1"
+tqdm = "^4.66.1"
+cdstoolbox-remote = "^0.0.1"
+scipy = "^1.11.4"
+certifi = "^2023.11.17"
+geopy = "^2.4.1"
+global-land-mask = "^1.0.0"
+jupyter = "^1.0.0"
+plotly = "^5.18.0"
+shapely = "^2.0.2"
+skimpy = "^0.0.14"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
